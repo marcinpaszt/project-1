@@ -1,19 +1,43 @@
 footer {
     text-align: center;
 }
-
+.grey-text {
+    margin-bottom: 3px;
+}
 html,
 body {
     height: 100%;
 }
-
 .wrapper {
     min-height: 100%;
     margin-bottom: -64px; /* <-- this number is equal to the height of the footer */
 }
-
-
 .push {
     height: 64px; /* <-- this number is also equal to the height of the footer */
 }
-
+#logo-img {
+    margin-top: -6px;
+    height: 65px;
+}
+.jumbotron-fluid {
+    margin-bottom: 0;
+    height: 610px;
+}
+.display-4 {
+    margin-top: -50px;
+}
+.img-fluid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#getStarted {
+    text-align: center;
+}
+#app-instructions1 {
+    margin-top: -30px;
+}
+h2 {
+    text-decoration: underline;
+    margin-top: -10px;
+}
