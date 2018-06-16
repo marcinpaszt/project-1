@@ -1,3 +1,19 @@
 footer {
     text-align: center;
 }
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -64px; /* <-- this number is equal to the height of the footer */
+}
+
+footer,
+.push {
+    height: 64px; /* <-- this number is also equal to the height of the footer */
+}
