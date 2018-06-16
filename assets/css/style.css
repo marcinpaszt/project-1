@@ -10,10 +10,10 @@ body {
 
 .wrapper {
     min-height: 100%;
-    margin-bottom: -64px; /* <-- this number is equal to the height of the footer */
+    margin-bottom: -85px; /* <-- this number is equal to the height of the footer */
 }
 
 footer,
 .push {
-    height: 64px; /* <-- this number is also equal to the height of the footer */
+    height: 85px; /* <-- this number is also equal to the height of the footer */
 }
