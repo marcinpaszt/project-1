@@ -65,3 +65,9 @@ nav a:hover {
     font-weight: bold;
     text-decoration: none;
 }
+
+nav, 
+.page-footer {
+    background: red;
+}
+
