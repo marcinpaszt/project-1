@@ -18,11 +18,14 @@ main {
 
 #logo-img {
     margin-top: -6px;
-    height: 65px;
+    margin-left: .5em;
+    max-height: 65px;
+    max-width: 50%;
 }
 
 .jumbotron-fluid {
     margin-bottom: 0;
+    background: white;
 }
 
 .display-4 {
