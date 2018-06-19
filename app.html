@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
 <head>
     <meta charset="utf-8" />
@@ -24,8 +24,8 @@
 
         <nav>
             <div class="nav-wrapper">
-
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <img id="logo-img" src="assets/images/logo.jpg" alt:"rocket logo">
+                <ul id="nav-mobile" class="right ">
                     <li>
                         <a href="index.html">Home</a>
                     </li>
@@ -42,23 +42,26 @@
         <div class="container">
             <div class="row">
                 <div class="col s12 m6">
+                    <h5 id="app-instructions1">Simply enter a span of time in which you are interested in the rocket launches from across the globe.</h5>
                     <form>
                         <div class="form-group">
                             <label for="startDateInput">Enter Start Date</label>
-                            <input type="startDate" class="form-control form-control-lg" id="startDateInput" aria-describedby="" placeholder="Enter Start Date">
+                            <input type="startDate" class="form-control form-control-lg" id="startDateInput" aria-describedby="" placeholder="YYYY/MM/DD">
                         </div>
                         <div class="form-group">
                             <label for="endDateInput">Enter End Date</label>
-                            <input type="endDate" class="form-control form-control-lg" id="endDateInput" placeholder="Enter End Date">
+                            <input type="endDate" class="form-control form-control-lg" id="endDateInput" placeholder="YYYY/MM/DD">
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary">Go!</button>
                     </form>
+                    <br>
+                    <h5>Click on the result you would like to know more about.</h5>
                     <div class="card blue-grey darken-1">
                         <div class="card-content white-text">
                             <span class="card-title">Results:</span>
                         </div>
                         <div class="card-action">
-                            <a href="#">This is a link</a>
+                            <a href="results.html">More info</a>
                         </div>
                     </div>
                 </div>
@@ -70,10 +73,11 @@
     </div>
 
     <footer class="page-footer">
-        <div class="container">
-            <h5>Copyright © 2018
-                <br> Amanda Ferraro, Evan Morgan, Marcin Paszt, Mark Gillette, Michael Halpern
-            </h5>
+        <div class="footer-copyright">
+            <div class="container">
+                <h5 class="white-text">Copyright © 2018</h5>
+                <p class="grey-text text-lighten-4">Amanda Ferraro, Evan Morgan, Marcin Paszt, Mark Gillette, and Michael Halpern</p>
+            </div>
         </div>
     </footer>
 
