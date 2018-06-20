@@ -1,11 +1,7 @@
 $(document).ready(function () {
-
-
    
-   
-   
-    var start = "2018-02-05";
-    var end = "2018-05-10"; 
+    var start = "2004-01-01";
+    var end = "2004-06-01"; 
     ///function launchLibinfo(start,end){
         var xhr = $.get("https://launchlibrary.net/1.4/launch/" + start + "/" + end);
     
