@@ -19,7 +19,7 @@ function initLaunchLibDateSearch() {
 
         xhr.done(function (Info) {
             $("#display-info-divs").empty();
-            console.log(Info);
+        
             for (i = 0; i < Info.launches.length; i++) {
                 var location = Info.launches[i].location.name;
                 var mission = Info.launches[i].name;
@@ -27,14 +27,11 @@ function initLaunchLibDateSearch() {
                 //var rocketImg = Info.launches[i].rocket.imageURL;
                 //var description = Info.launches[i].missions[0].description;
 
-                console.log(location);
-                console.log(mission);
-                //console.log(description)
 
 
                 //create results divs
                 var a = $("<div>");
-                a.addClass("rocket");
+                //a.addClass("rocket");
                 a.text(mission);
                 a.attr('id', missionId)
                 $("#display-info-divs").append(a);
@@ -51,7 +48,7 @@ function initLaunchLibDateSearch() {
 
         xhr.done(function (Info) {
             $("#display-info-divs").empty();
-            console.log(Info);
+        
             for (i = 0; i < Info.launches.length; i++) {
                 var location = Info.launches[i].location.name;
                 var mission = Info.launches[i].name;
@@ -59,14 +56,10 @@ function initLaunchLibDateSearch() {
                 //var rocketImg = Info.launches[i].rocket.imageURL;
                 //var description = Info.launches[i].missions[0].description;
 
-                console.log(location);
-                console.log(mission);
-                //console.log(description)
-
 
                 //create results divs
                 var a = $("<div>");
-                a.addClass("rocket");
+                //a.addClass("rocket");
                 a.text(mission);
                 a.attr('id', missionId)
                 $("#display-info-divs").append(a);
@@ -174,11 +167,12 @@ function initLaunchLibInfoSearch(string) {
         }
         else {
             var img = document.createElement('img');
+            //img.addClass("rocketIMAGE");
             img.src = rocketImg;
             document.getElementById("rocketImg").appendChild(img);
 
-            document.getElementById("rocketImg").height = "700";
-            document.getElementById("rocketImg").width = "100%";
+            document.getElementById("rocketImg").height("700");
+            document.getElementById("rocketImg").width("50%");
         }
 
         //map

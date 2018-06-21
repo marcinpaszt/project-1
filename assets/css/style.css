@@ -85,3 +85,7 @@ nav,
 .rocket { 
     cursor: pointer; 
 }
+
+#rocketImg img {
+    width: 100%;
+}
