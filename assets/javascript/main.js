@@ -31,7 +31,7 @@ function initLaunchLibDateSearch() {
 
                 //create results divs
                 var a = $("<div>");
-                //a.addClass("rocket");
+                a.addClass("rocket");
                 a.text(mission);
                 a.attr('id', missionId)
                 $("#display-info-divs").append(a);
@@ -59,7 +59,7 @@ function initLaunchLibDateSearch() {
 
                 //create results divs
                 var a = $("<div>");
-                //a.addClass("rocket");
+                a.addClass("rocket");
                 a.text(mission);
                 a.attr('id', missionId)
                 $("#display-info-divs").append(a);
@@ -108,7 +108,7 @@ function initLaunchLibInfoSearch(string) {
         $("#location").empty();
         $("#description").empty();
         $("myMap").empty();
-
+        console.log(Info);
         var location = Info.launches[0].location.pads[0].name;
         var mission = Info.launches[0].name;
         var date = Info.launches[0].windowstart;
@@ -171,8 +171,6 @@ function initLaunchLibInfoSearch(string) {
             img.src = rocketImg;
             document.getElementById("rocketImg").appendChild(img);
 
-            document.getElementById("rocketImg").height("700");
-            document.getElementById("rocketImg").width("50%");
         }
 
         //map
